@@ -15,8 +15,10 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Stu {
+public class Stu1 {
     private Integer businessDate;
     private Integer id;
-    private String name;
+    private String name1;
+
+    private String add;
 }

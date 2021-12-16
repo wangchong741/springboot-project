@@ -1,8 +1,7 @@
 package com.example.demo.test.demo;
 
-import com.google.common.collect.Lists;
 
-import java.util.List;
+import java.math.BigDecimal;
 
 /**
  * xxx
@@ -12,19 +11,11 @@ import java.util.List;
  */
 public class Demo1 {
     public static void main(String[] args) {
-        List<Stu> stus = Lists.newArrayList();
-        for (int i = 0; i < 10; i++) {
-            stus.add(new Stu(2021, null, "a" + i));
-        }
-
-        int i = 1;
-        for (Stu stu : stus) {
-            stu.setId(i++);
-        }
-
-
-        System.out.println(stus);
-
-
+        BigDecimal bigDecimal = new BigDecimal(123);
+        BigDecimal bigDecimal1 = new BigDecimal(-123);
+        BigDecimal bigDecimal2 = new BigDecimal(-0);
+        System.out.println(bigDecimal.compareTo(BigDecimal.ZERO));
+        System.out.println(bigDecimal1.compareTo(BigDecimal.ZERO));
+        System.out.println(bigDecimal2.compareTo(BigDecimal.ZERO));
     }
 }
