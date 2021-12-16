@@ -23,7 +23,7 @@ import java.io.IOException;
 public class picTest {
     @Test
     public void test() throws Exception {
-        File file = new File("D:\\workspaces\\IMG_2021.jpg");
+        File file = new File("D:\\workspaces\\m2.jpg");
         readImageInfo(file);
     }
 
