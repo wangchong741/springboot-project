@@ -11,17 +11,6 @@ import java.util.List;
  * @author 王冲
  * @date 2021-10-19 16:37
  */
-public class ServiceTest {
-    public static void main(String[] args) {
+public interface ServiceTest {
 
-
-
-    }
-
-    public <T> void test(List<T> lists){
-        for (T list : lists) {
-
-        }
-
-    }
 }
